@@ -1,13 +1,12 @@
 #N canvas 502 225 475 368 12;
-#X obj 101 119 scope~;
+#X obj 101 119 scope~ 200 100 8 3 64 -1 1 0 0 0 0 30 30 30 190 190 190 160 160 160 0 empty;
 #X text 85 15 Create a saw wave oscillator;
-#X text 125 59 v reset phase;
-#X text 13 59 change freq v;
+#X text 148 59 v reset phase;
+#X text 32 59 change freq v;
 #X msg 22 154 440;
 #X obj 22 129 loadbang;
-#X obj 101 79 saw~;
-#X text 338 316 Brian House 2021;
-#X text 337 330 AC ARHA 292;
+#X obj 101 79 ac/saw~;
+#X text 353 309 AC ARHA/MUSI 274;
 #X connect 4 0 6 0;
 #X connect 5 0 4 0;
 #X connect 6 0 0 0;
