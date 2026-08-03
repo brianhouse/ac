@@ -5,7 +5,6 @@
 #X obj 338 97 tabwrite~ \$0-waveform;
 #X obj 338 73 metro 100;
 #X text 419 238 AC ARHA/MUSI 274;
-#X obj 100 121 cnv 15 200 139 empty empty empty 20 12 0 14 #202020 #404040 0;
 #N canvas 0 22 450 278 (subpatch) 0;
 #X array \$0-waveform 500 float 0;
 #X coords 0 1 499 -1 200 140 1 0 0;

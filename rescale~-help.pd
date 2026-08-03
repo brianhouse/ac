@@ -1,0 +1,17 @@
+#N canvas 488 210 506 263 12;
+#X obj 124 224 ac/rescale~ 0 1 256 1024;
+#X floatatom 124 177 5 0 0 0 - - - 12;
+#X floatatom 124 320 5 0 0 0 - - - 12;
+#X obj 127 138 hsl 128 17 0 1 0 0 empty empty empty -2 -8 0 10 #191919 #e1e1e1 #e1e1e1 0 1;
+#X obj 124 267 snapshot~;
+#X obj 97 267 t b;
+#X text 170 176 input range defined by first two arguments (eg \, 0 and 1);
+#X text 174 323 output range defined by second two arguments (eg \, 256 and 1024);
+#X text 124 77 rescale one range to another (signal version);
+#X text 339 431 also see rescale;
+#X connect 0 0 4 0;
+#X connect 1 0 0 0;
+#X connect 3 0 1 0;
+#X connect 3 0 5 0 32.................H....X9+++OB....l++++CG....;
+#X connect 4 0 2 0;
+#X connect 5 0 4 0;

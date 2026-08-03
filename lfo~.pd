@@ -1,0 +1,13 @@
+#N canvas 827 239 734 565 12;
+#X obj 74 64 inlet~;
+#X obj 142 64 inlet;
+#X obj 74 228 outlet~;
+#X text 196 258 AC ARHA/MUSI 274;
+#X obj 74 160 +~ 1;
+#X obj 74 191 /~ 2;
+#X obj 74 122 ac/osc/\$1~;
+#X connect 0 0 6 0;
+#X connect 1 0 6 1;
+#X connect 4 0 5 0;
+#X connect 5 0 2 0;
+#X connect 6 0 4 0;
