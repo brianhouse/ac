@@ -1,0 +1,13 @@
+#N canvas 488 210 506 263 12;
+#X floatatom 124 177 5 0 0 0 - - - 16;
+#X floatatom 124 324 5 0 0 0 - - - 24;
+#X obj 127 131 hsl 128 17 0 1 0 0 empty empty empty -2 -8 0 10 #191919 #e1e1e1 #e1e1e1 0 1;
+#X text 259 176 input range defined by first two arguments (eg \, 0 and 1);
+#X text 124 77 scale a signal logarithmically to preserve frequency relationships;
+#X text 170 402 output range defined by second two arguments (eg \, 20 and 20000);
+#X obj 124 224 ac/freqscale~ 0 1 50 2000;
+#X obj 124 267 unsig~;
+#X connect 0 0 6 0;
+#X connect 2 0 0 0;
+#X connect 6 0 7 0;
+#X connect 7 0 1 0;
