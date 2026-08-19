@@ -84,6 +84,8 @@
 #X msg 742 146 1;
 #X obj 735 208 print;
 #X obj 729 93 t b b b;
+#X obj 961 223 r \$1-length;
+#X obj 1007 277 print;
 #X connect 2 0 22 0;
 #X connect 3 0 27 0;
 #X connect 5 0 14 0;
@@ -191,4 +193,7 @@
 #X connect 81 0 72 0;
 #X connect 81 1 78 0;
 #X connect 81 2 79 0;
+#X connect 82 0 37 1;
+#X connect 82 0 83 0;
+#X connect 82 0 36 0;
 #X coords 0 -1 1 1 299 143 1 40 40;
