@@ -1,0 +1,11 @@
+#N canvas 544 84 460 300 12;
+#X obj 36 25 inlet~;
+#X obj 86 25 inlet;
+#X obj 36 110 ac/vco/vco.sin~;
+#X obj 36 190 outlet~;
+#X text 36 225 default waveform when no argument is given.;
+#X text 36 250 Pd leaves \$1 literal when there is no argument \, hvcc substitutes 0 - so both files exist and wrap the same oscillator.;
+#X text 292 275 AC ARHA/MUSI 274;
+#X connect 0 0 2 0;
+#X connect 1 0 2 1;
+#X connect 2 0 3 0;

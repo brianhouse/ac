@@ -1,12 +1,12 @@
 #N canvas 488 210 506 263 12;
 #X floatatom 124 324 12 0 0 0 - - - 24;
-#X obj 124 267 unsig~;
+#X obj 124 267 ac/unsig~;
 #X msg 124 189 0.1;
 #X obj 124 154 loadbang;
 #X obj 124 224 ac/vco~ sin;
 #X text 220 267 convert a signal to a message stream;
 #X text 297 398 optional argument sets sample frequency (default 20ms);
-#X obj 399 424 unsig~ 100;
+#X obj 399 424 ac/unsig~ 100;
 #X connect 1 0 0 0;
 #X connect 2 0 4 0;
 #X connect 3 0 2 0;

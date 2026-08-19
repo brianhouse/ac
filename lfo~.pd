@@ -2,7 +2,7 @@
 #X text 174 273 AC ARHA/MUSI 274;
 #X obj 74 160 +~ 1;
 #X obj 74 191 /~ 2;
-#X obj 74 122 ac/osc/\$1~;
+#X obj 74 122 ac/vco/vco.\$1~;
 #X obj 74 43 inlet~ (signal) frequency value in Hz;
 #X obj 124 74 inlet (float) phase cycle reset (from 0 to 1);
 #X obj 74 228 outlet~ (signal) waveform (from 0 to 1);

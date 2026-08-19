@@ -6,7 +6,7 @@
 #X text 124 77 scale a signal logarithmically to preserve frequency relationships;
 #X text 230 323 output range defined by second two arguments (eg \, 20 and 20000);
 #X obj 124 224 ac/freqscale~ 0 1 50 2000;
-#X obj 124 267 unsig~;
+#X obj 124 267 ac/unsig~;
 #X connect 0 0 6 0;
 #X connect 2 0 0 0;
 #X connect 6 0 7 0;

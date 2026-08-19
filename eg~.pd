@@ -11,11 +11,6 @@
 #X obj 433 247 pack 0 \$4;
 #X obj 149 135 tgl 25 0 empty empty empty 0 -10 0 10 #191919 #e1e1e1 #e1e1e1 0 1;
 #X obj 149 166 select 0 1;
-#X obj 479 166 inlet (float) release time (ms);
-#X obj 296 166 inlet (float) sustain level (0-1);
-#X obj 296 213 clip 0 1;
-#X obj 269 135 inlet (float) decay time (ms);
-#X obj 242 108 inlet (float) attack time (ms);
 #X obj 149 84 inlet (float) 0: trigger 1: release;
 #X connect 0 0 1 0;
 #X connect 7 0 0 0;
@@ -24,9 +19,4 @@
 #X connect 10 0 11 0;
 #X connect 11 0 9 0;
 #X connect 11 1 8 0;
-#X connect 12 0 9 1;
-#X connect 13 0 14 0;
-#X connect 14 0 8 3;
-#X connect 15 0 8 2;
-#X connect 16 0 8 1;
-#X connect 17 0 10 0;
+#X connect 12 0 10 0;

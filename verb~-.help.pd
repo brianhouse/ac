@@ -1,7 +1,7 @@
 #N canvas 827 239 734 565 12;
-#X obj 427 516 ac/output~;
+#X obj 427 516 ac/spkr~;
 #X obj 349 124 noise~;
-#X obj 444 124 eg~ 5 50 0 0;
+#X obj 444 124 ac/eg~ 5 50 0 0;
 #X obj 399 195 *~;
 #X obj 444 87 metro 1000;
 #X obj 444 49 tgl 25 0 empty empty empty 0 -10 0 10 #191919 #e1e1e1 #e1e1e1 0 1;

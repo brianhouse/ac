@@ -1,9 +1,9 @@
 #N canvas 48 76 903 442 12;
-#X obj 168 257 output~;
+#X obj 168 257 ac/spkr~;
 #X text 308 136 <-- panning signal;
 #X text 80 229 left channel;
 #X text 259 229 right channel;
-#X obj 649 257 output~;
+#X obj 649 257 ac/spkr~;
 #X text 561 229 left channel;
 #X text 740 229 right channel;
 #X floatatom 701 160 5 0 0 0 - - - 0;
