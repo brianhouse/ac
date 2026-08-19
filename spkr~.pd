@@ -1,5 +1,5 @@
 #N canvas 100 60 820 850 12;
-#X obj 450 42 cnv 15 53 16 empty empty ac/spkr~ 3 8 0 12 #c5711d #e1e1e1 0;
+#X obj 450 42 cnv 15 53 16 empty empty ac/spkr~ 3 8 0 12 #311a4d #e1e1e1 0;
 #X obj 475 65 vsl 8 22 0 12 0 0 empty \$0-lred empty 0 -9 0 10 #000000 #d02020 #e1e1e1 0 1;
 #X obj 475 87 vsl 8 11 -6 0 0 0 empty \$0-lyel empty 0 -9 0 10 #000000 #d0c020 #e1e1e1 0 1;
 #X obj 475 98 vsl 8 43 -30 -6 0 0 empty \$0-lgrn empty 0 -9 0 10 #000000 #20b040 #000000 0 1;

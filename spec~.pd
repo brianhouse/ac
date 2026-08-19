@@ -208,8 +208,7 @@
 #X array \$0-s 268 float 0;
 #X coords 0 100 267 0 200 121 1;
 #X restore 23 44 graph;
-#X obj 23 23 cnv 15 199 20 empty empty empty 20 12 0 14 #c5711d #e1e1e1 0;
-#X text 24 22 ac/spec~;
+#X obj 23 23 cnv 15 199 20 empty empty ac/spec~ 10 10 0 14 #311a4d #ffffff 0;
 #X text 191 160 10;
 #X text 176 160 5;
 #X text 153 160 2.5;
@@ -221,5 +220,5 @@
 #X text 41 160 40;
 #X text 25 160 20;
 #X obj 17 309 inlet~ (signal) signal to analyze;
-#X connect 14 0 0 0;
+#X connect 13 0 0 0;
 #X coords 0 0 1 1 201 156 1 22 22;
