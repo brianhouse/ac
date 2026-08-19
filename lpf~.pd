@@ -1,0 +1,16 @@
+#N canvas 827 239 760 560 12;
+#X obj 40 40 inlet~ (signal/float) audio input;
+#X obj 260 140 clip~ 0 7000;
+#X obj 40 220 vcf~ 2;
+#X obj 40 300 outlet~ (signal) low-pass filtered audio;
+#X text 40 360 lpf~ - resonant low-pass filter with signal-rate cutoff;
+#X text 40 390 the cutoff inlet takes a signal \, or a float when nothing is patched into it;
+#X text 40 420 (same rule as the right inlet of *~);
+#X text 40 460 cutoff is clipped to 7000 Hz \, the useful limit of vcf~;
+#X text 40 490 resonance is fixed at Q 2;
+#X text 540 520 AC ARHA/MUSI 274;
+#X obj 260 40 inlet~ (signal/float) rolloff frequency in Hz (0 to 7000);
+#X connect 0 0 2 0;
+#X connect 1 0 2 1;
+#X connect 2 1 3 0;
+#X connect 10 0 1 0;

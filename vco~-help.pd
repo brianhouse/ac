@@ -2,9 +2,9 @@
 #X msg 22 154 440;
 #X obj 22 129 loadbang;
 #X text 849 600 AC ARHA/MUSI 274;
-#X obj 174 284 ac/osc~ sin;
-#X obj 624 284 ac/osc~ saw;
-#X obj 849 284 ac/osc~ sqr;
+#X obj 174 284 ac/vco~ sin;
+#X obj 624 284 ac/vco~ saw;
+#X obj 849 284 ac/vco~ sqr;
 #X text 83 283 change freq;
 #X text 270 283 reset phase;
 #X obj 174 335 ac/scope~;
@@ -12,7 +12,7 @@
 #X obj 624 335 ac/scope~;
 #X obj 849 335 ac/scope~;
 #X text 524 173 Create an oscillator;
-#X obj 399 284 ac/osc~ tri;
+#X obj 399 284 ac/vco~ tri;
 #X connect 0 0 3 0;
 #X connect 0 0 4 0;
 #X connect 0 0 5 0;

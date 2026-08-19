@@ -1,0 +1,9 @@
+#N canvas 827 239 734 565 12;
+#X text 196 258 AC ARHA/MUSI 274;
+#X obj 74 164 ac/osc/\$1~;
+#X obj 76 80 inlet~ (signal) frequency value in Hz;
+#X obj 126 111 inlet (float) phase cycle reset (from 0 to 1);
+#X obj 74 212 outlet~ (signal) waveform (from -1 to 1);
+#X connect 1 0 4 0;
+#X connect 2 0 1 0;
+#X connect 3 0 1 1;

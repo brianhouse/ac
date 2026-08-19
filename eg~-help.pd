@@ -20,7 +20,7 @@
 #X obj 469 465 ac/scope~ 3;
 #X text 449 633 (ac/scope~ created with an argument of 3 to slow it down);
 #X obj 222 253 loadbang;
-#X obj 222 305 ac/osc~ sin;
+#X obj 222 305 ac/vco~ sin;
 #X obj 174 424 ac/scope~;
 #X text 195 599 (regular ac/scope~ for audio);
 #X obj 274 374 *~;

@@ -4,9 +4,9 @@
 #X obj 127 138 hsl 128 17 0 1 0 0 empty empty empty -2 -8 0 10 #191919 #e1e1e1 #e1e1e1 0 1;
 #X text 170 176 input range defined by first two arguments (eg \, 0 and 1);
 #X text 174 273 output range defined by second two arguments (eg \, 256 and 1024);
-#X text 124 77 rescale one range to another (message version);
-#X obj 124 224 ac/rescale 0 1 256 1024;
-#X text 199 423 also see rescale~;
-#X connect 0 0 6 0;
+#X obj 124 224 ac/map 0 1 256 1024;
+#X text 199 423 see map~ for signals;
+#X text 124 77 map values from one range to another (message version);
+#X connect 0 0 5 0;
 #X connect 2 0 0 0;
-#X connect 6 0 1 0;
+#X connect 5 0 1 0;
