@@ -1,0 +1,4 @@
+#N canvas 827 239 734 565 12;
+#X obj 240 131 ac/smpload;
+#X obj 363 131 ac/smprecord~;
+#X text 288 92 see help files for:;

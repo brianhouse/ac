@@ -54,7 +54,7 @@
 #X msg 1437 640 0;
 #X text 560 270 loop start 0-1;
 #X text 690 270 loop end 0-1;
-#X text 40 1010 sampler~ <arrayname> <length in samples> - the array lives in your patch \, not in here;
+#X text 40 1010 smpplay~ <arrayname> <length in samples> - the array lives in your patch \, not in here;
 #X text 1069 746 wrap detect;
 #X obj 484 1022 tabread4~ \$1;
 #X obj 961 223 r \$1-length;
