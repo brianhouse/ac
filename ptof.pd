@@ -1,6 +1,6 @@
 #N canvas 200 80 1300 700 12;
 #X obj 40 40 inlet;
-#X obj 40 90 route c cs df d ds ef e f fs gf g gs af a as bf b C Cs Df D Ds Ef E F Fs Gf G Gs Af A As Bf B, f 165;
+#X obj 40 90 route c cs db d ds eb e f fs gb g gs ab a as bb b C Cs Db D Ds Eb E F Fs Gb G Gs Ab A As Bb B, f 165;
 #X obj 40 150 t b a;
 #X obj 74 150 t b a;
 #X obj 108 150 t b a;

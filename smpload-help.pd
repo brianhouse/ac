@@ -23,8 +23,11 @@
 #X obj 136 273 loadbang;
 #X msg 139 308 1;
 #X text 138 446 playback rate;
-#X obj 649 524 ac/smpload my_array;
+#X obj 649 584 ac/smpload my_array;
 #X obj 423 409 ac/smpplay~ my_array;
+#X text 679 482 bang opens a prompt;
+#X text 844 510 ...or send a filepath to load automatically;
+#X msg 844 540 read pixies.wav;
 #X connect 1 0 22 0;
 #X connect 2 0 22 0;
 #X connect 4 0 21 0;
@@ -39,3 +42,4 @@
 #X connect 22 0 0 0;
 #X connect 22 0 0 1;
 #X connect 22 1 5 0;
+#X connect 25 0 21 0;
