@@ -21,7 +21,11 @@
 #X obj 274 374 *~;
 #X msg 222 279 200;
 #X obj 469 277 ac/eg~ 20 100 0.5 100 100;
-#X text 658 276 set values as arguments:;
+#X text 658 276 set values as arguments or send as messages:;
+#X floatatom 524 233 5 0 0 0 - - - 12;
+#X floatatom 571 233 5 0 0 0 - - - 12;
+#X floatatom 617 233 5 0 0 0 - - - 12;
+#X floatatom 665 233 5 0 0 0 - - - 12;
 #X connect 0 0 21 0;
 #X connect 1 0 0 0;
 #X connect 2 0 1 0;
@@ -35,3 +39,7 @@
 #X connect 20 0 16 0;
 #X connect 21 0 13 0;
 #X connect 21 0 19 1;
+#X connect 23 0 21 1;
+#X connect 24 0 21 2;
+#X connect 25 0 21 3;
+#X connect 26 0 21 4;
