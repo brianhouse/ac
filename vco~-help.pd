@@ -1,6 +1,6 @@
 #N canvas 290 224 455 386 12;
-#X msg 22 154 440;
-#X obj 22 129 loadbang;
+#X msg 174 214 440;
+#X obj 174 189 loadbang;
 #X text 849 600 AC ARHA/MUSI 274;
 #X obj 174 284 ac/vco~ sin;
 #X obj 624 284 ac/vco~ saw;
