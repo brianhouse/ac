@@ -7,7 +7,7 @@
 #X text 230 323 output range defined by second two arguments (eg \, 20 and 20000);
 #X obj 124 224 ac/freqscale~ 0 1 50 2000;
 #X obj 124 267 ac/unsig~;
-#X text 174 423 see recale and rescale~ for mapping linearly;
+#X text 174 423 see map and map~ for mapping linearly;
 #X connect 0 0 6 0;
 #X connect 2 0 0 0;
 #X connect 6 0 7 0;
