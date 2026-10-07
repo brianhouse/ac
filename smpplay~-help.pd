@@ -2,3 +2,4 @@
 #X obj 240 131 ac/smpload;
 #X obj 363 131 ac/smprecord~;
 #X text 288 92 see help files for:;
+#X obj 486 131 ac/smpsave;

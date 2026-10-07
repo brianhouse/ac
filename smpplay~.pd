@@ -76,6 +76,8 @@
 #X obj 40 510 del 10;
 #X msg 112 470 stop;
 #X text 40 1010 smpplay~ <arrayname> <length in samples>;
+#X obj 1240 385 t b b;
+#X obj 1240 420 s \$1-getlength;
 #X connect 0 0 4 0;
 #X connect 0 1 1 0;
 #X connect 0 2 6 0;
@@ -141,7 +143,6 @@
 #X connect 39 0 6 0;
 #X connect 39 0 3 0;
 #X connect 40 0 41 0;
-#X connect 41 0 28 0;
 #X connect 41 1 43 0;
 #X connect 41 1 44 0;
 #X connect 41 1 45 0;
@@ -180,3 +181,6 @@
 #X connect 73 0 72 0;
 #X connect 74 0 2 0;
 #X connect 75 0 74 0;
+#X connect 41 0 77 0;
+#X connect 77 1 28 0;
+#X connect 77 0 78 0;

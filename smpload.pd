@@ -16,6 +16,10 @@
 #X obj 150 150 list prepend dir 1;
 #X obj 150 230 pdcontrol;
 #X obj 150 190 list trim;
+#X obj 590 300 r \$1-getlength;
+#X obj 590 340 t b;
+#X obj 590 380 array size \$1;
+#X obj 590 420 s \$1-length;
 #X connect 0 0 3 0;
 #X connect 1 0 6 0;
 #X connect 2 0 1 0;
@@ -29,3 +33,7 @@
 #X connect 14 0 16 0;
 #X connect 15 0 3 0;
 #X connect 16 0 15 0;
+#X connect 17 0 18 0;
+#X connect 9 0 18 0;
+#X connect 18 0 19 0;
+#X connect 19 0 20 0;
