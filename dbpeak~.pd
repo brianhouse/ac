@@ -8,7 +8,6 @@
 #X obj 40 297 snapshot~;
 #X obj 40 332 rmstodb;
 #X obj 40 370 - 100;
-#X obj 40 410 outlet (float) peak level in dBFS - 0 is full scale;
 #X obj 274 40 loadbang;
 #X obj 274 80 t b b;
 #X msg 274 200 1;
@@ -17,6 +16,7 @@
 #X obj 324 170 sel 0;
 #X text 40 450 dbpeak~ - peak level with decay. argument is the poll interval in ms \, default 50, f 69;
 #X text 624 473 AC ARHA/MUSI 274;
+#X obj 40 410 outlet (float) peak level in dBFS. 0 is full scale;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 5 0;
@@ -25,11 +25,11 @@
 #X connect 4 0 2 1;
 #X connect 6 0 7 0;
 #X connect 7 0 8 0;
-#X connect 8 0 9 0;
+#X connect 8 0 17 0;
+#X connect 9 0 10 0;
 #X connect 10 0 11 0;
+#X connect 10 1 13 0;
 #X connect 11 0 12 0;
-#X connect 11 1 14 0;
-#X connect 12 0 13 0;
-#X connect 13 0 6 0;
-#X connect 14 0 15 0;
-#X connect 15 1 13 1;
+#X connect 12 0 6 0;
+#X connect 13 0 14 0;
+#X connect 14 1 12 1;

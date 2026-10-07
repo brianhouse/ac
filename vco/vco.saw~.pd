@@ -4,6 +4,12 @@
 #X obj 84 21 inlet~;
 #X obj 84 82 hv.osc~ saw;
 #X text 168 208 AC ARHA/MUSI 274;
-#X connect 0 0 3 1;
+#X obj 144 50 + 0.5;
+#X obj 214 21 loadbang;
+#X msg 214 50 0;
 #X connect 2 0 3 0;
 #X connect 3 0 1 0;
+#X connect 0 0 5 0;
+#X connect 6 0 7 0;
+#X connect 7 0 5 0;
+#X connect 5 0 3 1;
