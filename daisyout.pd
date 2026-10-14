@@ -1,0 +1,5 @@
+#N canvas 827 239 734 565 12;
+#X text 199 325 AC ARHA/MUSI 274;
+#X obj 88 145 inlet (float) control value;
+#X obj 88 224 ac/daisyout/daisyout.\$1 \$2;
+#X connect 1 0 2 0;
