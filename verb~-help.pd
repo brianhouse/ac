@@ -17,7 +17,8 @@
 #X text 667 303 high-cut frequency \, 20-20000;
 #X text 574 423 arguments or inlets set parameters;
 #X text 314 391 mono input;
-#X text 314 448 stereo output;
+#X text 427 448 stereo output;
+#X text 799 584 BH for AC ARHA/MUSI 274;
 #X connect 1 0 3 0;
 #X connect 2 0 3 1;
 #X connect 3 0 9 0;

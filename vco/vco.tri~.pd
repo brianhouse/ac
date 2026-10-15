@@ -11,7 +11,7 @@
 #X obj 300 18 loadbang;
 #X msg 300 52 0;
 #X text 86 258 0.75 phase offset starts the triangle at 0 rising \, matching sin~;
-#X text 220 300 AC ARHA/MUSI 274;
+#X text 314 304 BH for AC ARHA/MUSI 274;
 #X connect 0 0 3 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 1;

@@ -134,15 +134,11 @@
 #X text 488 299 gain 50-112 = -50..+12 dB;
 #X text 609 150 mute;
 #X text 117 836 mic~ - gain \, mute \, 3-band peak meters;
-#X text 457 836 AC ARHA/MUSI 274;
 #X text 67 506 peak detect;
 #X obj 247 466 outlet~;
 #X obj 67 536 ac/dbpeak~;
 #X obj 337 536 ac/dbpeak~;
-#X connect 12 0 33 0;
-#X connect 33 0 25 0;
-#X connect 13 0 34 0;
-#X connect 34 0 25 1;
+#X text 536 834 BH for AC ARHA/MUSI 274;
 #X connect 7 0 17 0;
 #X connect 7 0 24 0;
 #X connect 8 0 20 0;
@@ -150,10 +146,12 @@
 #X connect 9 1 11 0;
 #X connect 10 0 12 0;
 #X connect 11 0 13 0;
+#X connect 12 0 32 0;
 #X connect 12 0 14 0;
+#X connect 13 0 33 0;
 #X connect 13 0 15 0;
 #X connect 14 0 16 0;
-#X connect 15 0 32 0;
+#X connect 15 0 31 0;
 #X connect 17 0 18 0;
 #X connect 18 0 19 0;
 #X connect 19 0 10 1;
@@ -164,4 +162,6 @@
 #X connect 22 0 23 0;
 #X connect 23 0 7 0;
 #X connect 24 0 8 0;
+#X connect 32 0 25 0;
+#X connect 33 0 25 1;
 #X coords 0 -1 1 1 55 122 2 449 41;

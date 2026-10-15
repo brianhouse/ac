@@ -15,8 +15,8 @@
 #X obj 324 130 f \$1;
 #X obj 324 170 sel 0;
 #X text 40 450 dbpeak~ - peak level with decay. argument is the poll interval in ms \, default 50, f 69;
-#X text 624 473 AC ARHA/MUSI 274;
 #X obj 40 410 outlet (float) peak level in dBFS. 0 is full scale;
+#X text 675 474 BH for AC ARHA/MUSI 274;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 5 0;
@@ -25,7 +25,7 @@
 #X connect 4 0 2 1;
 #X connect 6 0 7 0;
 #X connect 7 0 8 0;
-#X connect 8 0 17 0;
+#X connect 8 0 16 0;
 #X connect 9 0 10 0;
 #X connect 10 0 11 0;
 #X connect 10 1 13 0;

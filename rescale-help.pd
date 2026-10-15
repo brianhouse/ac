@@ -8,6 +8,7 @@
 #X obj 124 224 ac/rescale 0 1 256 1024;
 #X text 199 423 see rescale~ for signals;
 #X text 199 473 see freqscale and freqscale~ for mapping frequencies logarithmically;
+#X text 494 565 BH for AC ARHA/MUSI 274;
 #X connect 0 0 6 0;
 #X connect 2 0 0 0;
 #X connect 6 0 1 0;

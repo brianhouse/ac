@@ -1,7 +1,7 @@
 #N canvas 827 239 734 565 12;
-#X text 580 259 AC ARHA/MUSI 274;
 #X obj 249 214 outlet;
 #X obj 249 179 change;
 #X obj 249 143 receive toggle\$1_press @hv_param;
+#X text 624 262 BH for AC ARHA/MUSI 274;
+#X connect 1 0 0 0;
 #X connect 2 0 1 0;
-#X connect 3 0 2 0;

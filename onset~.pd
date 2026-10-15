@@ -16,7 +16,7 @@
 #X text 40 440 onset~ - bangs on a transient. argument is the threshold \, default 0.05;
 #X text 40 475 abs~ and lop~ make a rough envelope \; change means it fires once per crossing rather than continuously \, and will not fire again until the level drops back below the threshold;
 #X text 490 200 a threshold of 0 (no argument) leaves the default alone;
-#X text 480 510 AC ARHA/MUSI 274;
+#X text 540 511 BH for AC ARHA/MUSI 274;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
@@ -25,8 +25,8 @@
 #X connect 5 0 6 0;
 #X connect 6 0 7 0;
 #X connect 8 0 9 0;
-#X connect 9 1 12 0;
 #X connect 9 0 10 0;
+#X connect 9 1 12 0;
 #X connect 10 0 11 0;
 #X connect 11 0 3 0;
 #X connect 12 0 13 0;

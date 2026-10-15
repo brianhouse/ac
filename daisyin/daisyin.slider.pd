@@ -1,11 +1,11 @@
 #N canvas 827 239 734 565 12;
-#X text 580 259 AC ARHA/MUSI 274;
 #X obj 249 322 outlet;
 #X obj 249 179 change;
 #X obj 249 143 receive slider\$1 @hv_param;
 #X msg 249 219 \$1 20;
 #X obj 249 263 line 0 1;
-#X connect 2 0 4 0;
-#X connect 3 0 2 0;
-#X connect 4 0 5 0;
-#X connect 5 0 1 0;
+#X text 613 257 BH for AC ARHA/MUSI 274;
+#X connect 1 0 3 0;
+#X connect 2 0 1 0;
+#X connect 3 0 4 0;
+#X connect 4 0 0 0;

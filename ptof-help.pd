@@ -2,7 +2,7 @@
 #X obj 224 549 ac/spkr~;
 #X obj 205 32 tgl 25 0 empty empty empty 0 -10 0 10 #191919 #e1e1e1 #e1e1e1 0 1;
 #X obj 205 146 hradio 20 1 0 6 empty empty empty 0 -8 0 10 #191919 #e1e1e1 #e1e1e1 0;
-#X obj 224 422 ac/vco~ saw;
+#X obj 225 447 ac/vco~ saw;
 #X obj 250 493 *~;
 #X msg 374 372 1;
 #X obj 374 399 ac/eg~ 20 800 0 0;
@@ -21,6 +21,8 @@
 #X obj 205 178 select 0 1 2 3 4 5;
 #X obj 205 102 ac/step 6;
 #X msg 337 242 0;
+#X obj 224 408 sig~;
+#X text 563 536 BH for AC ARHA/MUSI 274;
 #X connect 1 0 7 0;
 #X connect 2 0 19 0;
 #X connect 3 0 4 0;
@@ -36,7 +38,7 @@
 #X connect 15 0 17 0;
 #X connect 16 0 17 0;
 #X connect 17 0 18 0;
-#X connect 18 0 3 0;
+#X connect 18 0 22 0;
 #X connect 19 0 12 0;
 #X connect 19 1 13 0;
 #X connect 19 2 14 0;
@@ -45,3 +47,4 @@
 #X connect 19 5 21 0;
 #X connect 20 0 2 0;
 #X connect 21 0 18 0;
+#X connect 22 0 3 0;

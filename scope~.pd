@@ -19,13 +19,13 @@
 #X array \$0-waveform 500 float 0;
 #X coords 0 1 499 -1 200 140 1 0 0;
 #X restore 100 121 graph;
-#X text 330 330 AC ARHA/MUSI 274;
 #X text 100 120 1;
 #X text 100 244 -1;
 #X text 100 180 0;
 #X obj 100 100 cnv 15 200 20 empty empty ac/scope~ 10 10 0 14 #311a4d #ffffff 0;
-#X text 320 50 no arg = waveform mode (fast);
+#X text 111 37 no arg = waveform mode (fast);
 #X text 530 50 arg = ms per point (slow);
+#X text 371 334 BH for AC ARHA/MUSI 274;
 #X connect 0 0 6 0;
 #X connect 0 0 14 0;
 #X connect 1 0 2 0;

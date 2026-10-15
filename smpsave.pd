@@ -11,7 +11,7 @@
 #X obj 314 380 soundfiler;
 #X obj 590 200 loadbang;
 #X obj 590 240 symbol \$1;
-#X text 640 580 AC ARHA/MUSI 274;
+#X text 696 588 BH for AC ARHA/MUSI 274;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 1 1 5 0;

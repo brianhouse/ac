@@ -17,6 +17,7 @@
 #X obj 216 190 bng 25 250 50 0 empty empty empty 0 -10 0 10 #191919 #e1e1e1 #e1e1e1;
 #X obj 623 114 ac/step 4;
 #X obj 683 152 ac/step 8;
+#X text 510 309 BH for AC ARHA/MUSI 274;
 #X connect 1 0 10 0;
 #X connect 10 0 0 0;
 #X connect 10 1 15 0;

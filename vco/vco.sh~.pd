@@ -7,7 +7,7 @@
 #X obj 84 226 outlet~;
 #X obj 279 62 loadbang;
 #X msg 279 90 0.999;
-#X text 252 269 AC ARHA/MUSI 274;
+#X text 336 273 BH for AC ARHA/MUSI 274;
 #X connect 0 0 3 0;
 #X connect 1 0 3 1;
 #X connect 2 0 4 0;

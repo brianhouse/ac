@@ -237,8 +237,8 @@
 #X obj 250 270 +~;
 #X obj 36 310 -~;
 #X obj 36 350 outlet~;
-#X text 324 348 AC ARHA/MUSI 274;
 #X text 36 395 polyBLEP from heavylib (MIT \, Enzien Audio);
+#X text 402 346 BH for AC ARHA/MUSI 274;
 #X connect 0 0 2 0;
 #X connect 0 0 6 0;
 #X connect 1 0 3 0;

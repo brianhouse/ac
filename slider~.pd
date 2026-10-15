@@ -1,0 +1,12 @@
+#N canvas 827 239 560 400 12;
+#X obj 197 42 inlet (float) slider value (0 to 1);
+#X obj 200 100 hsl 128 17 0 1 0 0 empty empty empty -2 -8 0 12 #f68100 #191919 #e1e1e1 0 1;
+#X obj 197 149 sig~;
+#X obj 197 240 outlet~ (signal) slider value (0 to 1);
+#X obj 197 192 lop~ 20;
+#X text 419 320 BH for AC ARHA/MUSI 274;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 4 0;
+#X connect 4 0 3 0;
+#X coords 0 -1 1 1 132 17 2 198 100;

@@ -27,6 +27,7 @@
 #X msg 815 523 start;
 #X msg 863 523 stop;
 #X text 649 92 1) create a garray and name it -- and size it to the maximum number of samples needed;
+#X text 1094 665 BH for AC ARHA/MUSI 274;
 #X connect 1 0 19 0;
 #X connect 2 0 19 0;
 #X connect 5 0 19 1;

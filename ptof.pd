@@ -84,7 +84,7 @@
 #X msg 1180 380 0;
 #X text 40 15 note name and optional octave \, eg cs 4;
 #X text 40 570 ptof - send cs 4 \, or just a for octave 4;
-#X text 1000 530 AC ARHA/MUSI 274;
+#X text 1015 530 BH for AC ARHA/MUSI 274;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 1 1 3 0;

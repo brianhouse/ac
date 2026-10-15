@@ -1,12 +1,12 @@
 #N canvas 827 239 734 565 12;
-#X text 580 365 AC ARHA/MUSI 274;
 #X obj 276 119 inlet;
 #X obj 276 156 select 0;
 #X msg 276 193 0;
 #X msg 311 193 1;
 #X obj 291 252 send led\$1 @hv_param;
+#X text 657 365 BH for AC ARHA/MUSI 274;
+#X connect 0 0 1 0;
 #X connect 1 0 2 0;
-#X connect 2 0 3 0;
-#X connect 2 1 4 0;
-#X connect 3 0 5 0;
-#X connect 4 0 5 0;
+#X connect 1 1 3 0;
+#X connect 2 0 4 0;
+#X connect 3 0 4 0;

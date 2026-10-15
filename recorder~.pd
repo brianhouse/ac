@@ -14,7 +14,7 @@
 #X msg 269 190 start;
 #X msg 324 190 stop;
 #X obj 40 481 writesf~ 2;
-#X text 700 480 AC ARHA/MUSI 274;
+#X text 740 474 BH for AC ARHA/MUSI 274;
 #X connect 0 0 14 0;
 #X connect 1 0 14 1;
 #X connect 2 0 3 0;

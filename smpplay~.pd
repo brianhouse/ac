@@ -76,6 +76,7 @@
 #X obj 620 1161 outlet (float) absolute playback position \, 0-1 across the whole array;
 #X text 40 1010 smpplay~ <arrayname>;
 #X obj 484 1122 outlet~ (signal) array data as audio;
+#X text 1202 1153 BH for AC ARHA/MUSI 274;
 #X connect 0 0 4 0;
 #X connect 0 1 1 0;
 #X connect 0 2 6 0;
