@@ -21,6 +21,7 @@
 #X obj 68 320 outlet~ (signal) rescaled signal;
 #X text 598 323 BH for AC ARHA/MUSI 274;
 #X obj 68 40 inlet~ (signal) signal or value to be rescaled;
+#X obj 310 74 sig~;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
@@ -42,3 +43,5 @@
 #X connect 14 0 15 0;
 #X connect 15 0 2 1;
 #X connect 21 0 0 0;
+#X connect 21 1 22 0;
+#X connect 22 0 0 0;

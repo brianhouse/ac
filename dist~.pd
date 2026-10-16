@@ -9,6 +9,7 @@
 #X obj 301 75 inlet~ (signal) audio signal to distort;
 #X obj 387 109 inlet~ (signal) gain (1-20);
 #X text 721 346 BH for AC ARHA/MUSI 274;
+#X obj 521 144 sig~;
 #X connect 0 0 4 0;
 #X connect 1 0 0 0;
 #X connect 2 0 1 1;
@@ -17,3 +18,5 @@
 #X connect 6 0 5 0;
 #X connect 7 0 1 0;
 #X connect 8 0 2 0;
+#X connect 8 1 10 0;
+#X connect 10 0 2 0;
