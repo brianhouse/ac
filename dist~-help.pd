@@ -11,7 +11,7 @@
 #X obj 135 164 ac/vco~ sin;
 #X obj 135 102 sig~ 200;
 #X obj 183 323 sig~ 8;
-#X text 449 689 BH for AC ARHA/MUSI 274;
+#X text 449 688 BH for AC ARHA/MUSI 274;
 #X connect 3 0 11 0;
 #X connect 6 0 0 0;
 #X connect 6 0 0 1;
