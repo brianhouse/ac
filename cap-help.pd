@@ -15,7 +15,7 @@
 #X obj 314 328 ac/daisyout led 0;
 #X obj 464 389 ac/daisyout led 6;
 #X text 174 48 capactive sensing via Mpr121 sensor;
-#X text 125 420 all capacitive endpoints in hardware need to be hooked up before the seed is powered on (or resets) as on/off depends on calibration at startup, f 32;
+#X text 174 373 all capacitive endpoints in hardware need to be hooked up before the seed is powered on (or resets) as on/off depends on calibration at startup, f 32;
 #X connect 0 0 1 0;
 #X connect 0 1 2 0;
 #X connect 0 2 3 0;

@@ -1,0 +1,10 @@
+#N canvas 827 239 734 565 12;
+#X obj 390 193 ac/imu, f 19;
+#X obj 274 274 ac/debug direction;
+#X obj 432 274 ac/debug amount;
+#X obj 585 274 ac/debug intensity;
+#X text 553 192 <-- values too fast for printing to the terminal over serial;
+#X text 349 323 argument is prefix in console/terminal;
+#X connect 0 0 1 0;
+#X connect 0 1 2 0;
+#X connect 0 2 3 0;
